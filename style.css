@@ -1,0 +1,35 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.cells-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    
+
+}
+
+.cell {
+    flex: 1 0 32%;
+    min-height: 33%;
+    max-height: 33%;
+    border: black solid 1px;
+    
+    
+}
+
+.cell > div {
+    font-size: 5rem;
+    margin: auto;
+    transform: translateY(32%);
+    
+}
